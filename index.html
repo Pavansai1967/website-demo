@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <style>
+      *{
+        margin: 0;
+        padding: 0; 
+      
+      }
+      @media screen and (max-width:600px){
+        nav{
+        font-size: 10px;
+        justify-content: space-between;
+      }
+      nav ul{
+          justify-content:space-between;
+          
+        }
+      .leftsection{
+        font-weight: 400;
+      
+        margin-top: 4px;
+      }
+      .rightsection{
+        display: none;
+      }
+      .fourthsection{
+        flex-direction: column;
+    padding: 50px;
+    margin: 20px;
+   }
+   .second{
+       flex-direction: column;
+       justify-content: center;
+      }
+    .second-left{
+      flex-direction: column;
+      
+    }
+    .container{
+      flex-direction: column;
+      border: none;
+      border-radius: none;
+      margin: none;
+      height: 70vh;
+      width: auto;
+      
+    }
+    .input,button{
+      border: none ;
+      border-radius: none;
+    }
+    
+    }
+       body{
+        font-weight:400;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400; 
+        background-image: url(./flat-lay-workstation-with-copy-space-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .left{
+        padding: 2px;
+        color:white;
+      }
+      .left:hover{
+        font-size: 1.4rem;
+        transition: 50ms;
+      }
+      nav{
+        display: flex;
+        justify-content:space-around ;
+        align-items: center;
+        padding: 20px;
+        font-size: 22px;
+        background-color: black;
+      }
+      .left{
+        text-align: center;
+      }
+     nav ul{
+          display: flex;
+          justify-content: centre;
+          
+        }
+      nav ul li{
+          list-style: none;
+          margin: 0 23px;
+        }
+        nav ul li a{
+         text-decoration: none;
+         color: white;
+        }
+        nav ul li a:hover{
+         color: gray;
+         font-size: 1.2rem;
+         transition: 0.5s;
+        }
+        .left{
+          font-size: 1.5rem;
+        }
+      .firstsection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80vh;
+        margin: 50px 0;
+        font-weight:400;
+      }
+      .firstsection > div{
+        width: 40%;
+        font-size: 40px;
+      }
+      .leftsection{
+        font-size: 3rem;
+        margin-left: 40px;
+        margin-right: 0px;
+      }
+      .rightsection img{
+       
+        margin-right: 40px;
+        height: 92%;
+        width: 100%;
+      }
+      .olive{
+        color: olive;
+      }
+      #element{
+        color:olive;
+      }
+      .secondsection{
+        max-width: 80vw;
+        margin: auto;
+       
+      }
+      .line{
+        border: 0;
+        background:gray;
+        height: 1.2px;
+        margin: 80px 8px;
+      }
+      .gray{
+        color: gray;
+      }
+      .second{
+        display: flex;
+        justify-content: center;
+      }
+      .second-left{
+        border: 3px inset;
+        border-radius: 5px;
+        padding: 7px;
+        margin: 10px;
+      }
+      .second-left img{
+        height: 40vh;
+        padding-left: 120px;
+      }
+      .second-left img:hover{
+        cursor: pointer;
+      }
+      .second-left span{
+       color: #ff004f;
+       font-weight: 700;
+       font-size: 30px;
+      }
+    .container{
+      display: flex;
+      justify-content:space-around;
+      border: 2px solid gray;
+      border-radius: 5px;
+      margin: 140px;
+      height: 70vh;
+      
+    }
+    .picture-container>img{
+      padding-top: 7px;
+      height: 68vh;
+    }
+    .contact-form-container {
+      padding: 40px 140px 40px 0px;
+    }
+    .contact-form-container span{
+      font-size: 1.6rem;
+      color: #ff004f;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+    }
+
+    .contact-form{
+      width:120%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction:column;
+    }
+
+    .input,button{
+      border: 2px solid;
+      border-radius: 5px;
+    }
+    
+    .submit:hover {
+   cursor: pointer;
+   background: gray;
+   transform: translateY(-2px);
+   }
+   .fourthsection{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 20px;
+    
+   }
+   .forth-left{
+    width: 100%;
+    padding: 60px;
+    margin: 20px;
+   }
+   .fourth-left > img{
+    border-radius: 10px;
+    position: relative;
+   }
+   .sub-title{
+    font-size: 45px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+   }
+   .fourth-right{
+    margin: 0px 30px 30px 30px;
+    justify-content: center;
+   }
+   .tab-titles{
+    display: flex;
+    margin: 10px 0px 40px;
+   }
+   .tab-links{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+   }
+   .tab-links::after{
+    width: 0;
+    content: '';
+    height: 3px;
+    bottom: -8px;
+    left: 0px;
+    transition: 0.5s;
+    background-color: #ff004f;
+    position: absolute;
+   }
+   .tab-links.active-link::after{
+    width: 50%;
+   }
+   .tab-contents ul li{
+    margin: 10px 0px;
+    list-style: none;
+   }
+   .tab-contents ul li span{
+    color: #fe135d;
+    font-size: 15px;
+   }
+   .tab-contents{
+    display: none;
+   }
+   .tab-contents.tab-active{
+    display: block;
+   }
+    </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Pavan's
+        <div><img class="img" src="./PikPng.com_portfolio-logo-png_5014867.png" width="100px"></div>
+        </div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutme">About me </a></li>  
+          <li> <a href="#services">Services</a></li>
+          <li><a href="#contactme">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection" id="home">
+      <div class="leftsection"> Hi, My name is <span class="olive">Pavan sai</span>
+        <div>and I am a passionate</div>
+        
+        <span id="element"></span>
+      </div>
+      <div class="rightsection">
+       <img src="./hi.png" >
+      </div>
+    </section>
+    <hr class="line">
+    <section class="fourthsection" id="aboutme">
+      
+      <div class="fourth-left"><img src="./me.jpg"></div>
+      <div class="fourth-right">
+        <h1 class="sub-title">About Me</h1>
+        <p width="70%">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit non consectetur corporis alias vero praesentium unde ut, aspernatur assumenda. Alias velit iste doloribus nemo autem eveniet distinctio voluptatem quasi expedita.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+         <p class="tab-links" onclick="opentab('experience')">Experience</p>
+         <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents tab-active" id="skills">
+          <ul>
+            <li><span>Web Development</span><br>Html,Css,Js</li>
+            <li><span>App Development</span></li>
+            <li><span>Video Editing</span></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>From 2023-2024</span><br>Html,Css,Js</li>
+            <li><span>Since 2024</span><br>ReactJs</li>
+            <li><span>Since 2024</span><br>Adobe-videoediting</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>Presently</span><br>IIT Guwahati 2nd year </li>
+            <li><span>From 2022-2024</span><br>Narayana College</li>
+            <li><span>Schooling</span>Narayana school</li>
+          </ul>
+        </div>
+    </section>
+    <hr class="line">
+    <section class="secondsection">
+      <span class="gray">what I have done so far</span>
+      <h1> Project Experience</h1>
+      <div class="second">
+        <div class="second-left">
+          <div class="image"><img src="./insta.png"></div>
+          <span>Instagram promos</span><br>Video Editing
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem sequi aliquid eos at, consequuntur amet eum corrupti, eius ad officia earum excepturi, exercitationem aliquam. Dolorum quia illo ducimus doloremque ipsum.</p>
+        </div>
+        <div>
+          <div class="second-left">
+            <div class="image"><img src="./apple.png"></div>
+            <span>Apple product video</span><br>3D motion graphics
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem sequi aliquid eos at, consequuntur amet eum corrupti, eius ad officia earum excepturi, exercitationem aliquam. Dolorum quia illo ducimus doloremque ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="line">
+    <section class="tirdsection" id="contactme">
+      <div class="container">
+        <div class="picture-container">
+                <img src="./contactme.png">
+        </div>
+        <div class="contact-form-container">
+            <form name="myForm" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <span class="form-header">Contact me</span>
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                <input type="text" name="name" class="input" placeholder="Your Name" />
+                <input type="email" name="email" class="input" placeholder="Your Email" />
+                <textarea name=" message" cols="30" rows="5" placeholder="Enter Your message" class="input"
+                    required></textarea>
+                <button class="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    </section>
+      
+  </main>
+  
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("tab-active");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("tab-active");
+    }
+    var typed = new Typed('#element', {
+      strings: ['video editer','Web Developer'],
+      typeSpeed: 50,
+    });
+    function validateForm() {
+  let x = document.forms["myForm"]["name"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+  function validateForm() {
+  let x = document.forms["myForm"]["email"].value;
+  if (x == "") {
+    alert("Please enter your email");
+    return false;
+  }
+}
+  function validateForm() {
+  let x = document.forms["myForm"]["message"].value;
+  if (x == "") {
+    alert("Please enter your message");
+    return false;
+  }
+}
+  </script>
+</body>
+</html>
